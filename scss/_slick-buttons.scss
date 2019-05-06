@@ -1,0 +1,36 @@
+.slick-dots {
+  bottom: -35px;
+  li {
+    button {
+      &::before {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .slick-dots {
+    bottom: -50px;
+    li {
+      button {
+        &::before {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slick-dots {
+    bottom: -35px;
+    li {
+      button {
+        &::before {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

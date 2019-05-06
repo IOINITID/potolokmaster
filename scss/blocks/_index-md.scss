@@ -1,0 +1,100 @@
+@media (max-width: 767.98px) {
+
+  .main {
+    padding: 20px 0;
+
+    .main__stretch-ceiling-title {
+      padding: 0 0 20px 0;
+    }
+
+    .main__stretch-ceiling-text {
+      font-size: 24px;
+    }
+
+    .main__stretch-ceiling-item {
+      font-size: 24px;
+      // padding: 5px 0;
+    }
+
+    .main__installation-form-item {
+      label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .main__installation-block-two-label {
+      padding: 20px 0 0 0;
+      text-align: center;
+    }
+
+    .main__price {
+      img {
+        display: block;
+        width: 100%;
+      }
+      table {
+        display: none;
+      }
+    }
+  }
+
+  .main__price-wrapper {
+    padding: 0;
+  }
+
+.footer__menu-list-wrapper {
+  display: none;
+}
+
+.footer__orderCall {
+  display: none;
+}
+
+.footer-wrapper-mobile {
+  flex-wrap: nowrap;
+}
+
+.button-menu-mobile {
+  display: block;
+}
+
+.header__list {
+    padding: 25px;
+  }
+  .header__item {
+    padding: 5px 0;
+    a {
+      color: #4d4b4d;
+      font-family: $robotoRegular;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.4px;
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+  .header__link--active {
+    color: #f32674 !important;
+    font-family: $robotoBold;
+    font-weight: 700;
+
+    &:hover,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .button-menu-mobile {
+    display: block;
+  }
+
+
+
+
+
+}

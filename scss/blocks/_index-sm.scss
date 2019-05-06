@@ -1,0 +1,131 @@
+@media (min-width: 1px) and (max-width: 575.98px) {
+
+  .header__wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .menu-button {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      z-index: 100;
+      transform: scale(1.5);
+    }
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .main {
+    .main__stretch-ceiling-title {
+      font-size: 20px;
+    }
+
+    .main__stretch-ceiling-title {
+      padding: 40px 0 20px 0 !important;
+    }
+  }
+
+  .main .main__stretch-ceiling-text {
+    font-size: 18px !important;
+  }
+
+  .main__stretch-ceiling-item {
+    font-size: 18px !important;
+  }
+
+  .main__stretch-ceiling-item-wrapper:first-child {
+    padding-right: 35px !important;
+  }
+
+  .main__installation-form-item {
+    label {
+      flex-direction: column;
+    }
+  }
+
+  .main__installation-form-button-one {
+    transform: translate(0px, 15px);
+  }
+
+  .main__installation-form-button-two {
+    transform: translate(0px, 65px);
+  }
+
+  .main__price-wrapper {
+    padding: 0 15px;
+  }
+
+  .footer__contacts {
+    display: none;
+  }
+
+  .footer__logo-wrapper {
+    .footer__logo {
+      justify-content: center;
+    }
+
+    p {
+      text-align: center
+    }
+  }
+
+  .main__installation-form-item {
+    label {
+      input {
+        width: 190px;
+      }
+    }
+  }
+
+  .jq-selectbox {
+    width: 190px;
+    align-self: center;
+  }
+
+  .jq-selectbox {
+    ul {
+      width: 190px;
+    }
+  }
+
+  .main__installation-form-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__list {
+    padding: 25px;
+  }
+  .header__item {
+    padding: 5px 0;
+    a {
+      color: #4d4b4d;
+      font-family: $robotoRegular;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.4px;
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+  .header__link--active {
+    color: #f32674 !important;
+    font-family: $robotoBold;
+    font-weight: 700;
+
+    &:hover,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .button-menu-mobile {
+    display: block;
+  }
+}
